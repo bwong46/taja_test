@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing</title>
+    <link rel="stylesheet" href="kor_tpcss.css">
+</head>
+<body>
+    <div class="header">
+        <h1>타이핑 측정</h1>
+    </div>
+    <div class="str-info">
+        <div class="str-margin">
+            타자속도: <span class="taja_speed">0</span>타
+        </div>
+        <div class="str-margin">
+            정확도: <span class="taja_accuracy">0</span>%
+        </div>
+        <div>
+            문장 수: <span class="str_score">0</span> / 5
+        </div>
+    </div>
+    <div class="str-display">
+        타자 검사가 시작되길 원하시면 <span style="color: #561feb;">enter 키 </span>를 입력하세요.
+    </div>
+    <div class="str-input-box">
+        <input type="text" class="str-input" onkeydown="checkAccuracy()" onkeyup="checkMatch()" placeholder="위 문구를 따라 입력하시면 타자 측정을 시작합니다." readonly/>
+    </div>
+    <div class="str-Next"></div>
+    <div class="playground">
+        <div class="bar-container">
+            <progress class="progressTag" value="0" max="100"/>
+        </div>
+    </div>
+    <script src="kor_maJS.js"></script>
+</body>
+</html>

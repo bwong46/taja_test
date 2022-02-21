@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gowun Batang", serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+}
+
+.header {
+  width: 100%;
+  background: #c85448;
+  color: #fff;
+  text-align: center;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+
+.str-display {
+  margin: 1.5rem 3rem 0rem 3rem;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.str-input-box {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.str-input {
+  padding: 0.5rem;
+  width: 80%;
+  font-size: 0.8rem;
+  border: none;
+  border-bottom: solid 3px #de968e;
+}
+
+input:focus {
+  outline: none;
+}
+
+.str-info {
+  margin: 2rem 6rem 0rem 0rem;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  overflow: hiddlen;
+  white-space: nowrap;
+}
+
+.str-margin {
+  margin-right: 1rem;
+}
+
+.taja_speed,
+.str_score,
+.taja_accuracy {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.taja_speed {
+  color: #c85448;
+}
+
+.str-text {
+  margin-top: 0.5rem;
+  font-size: 0.5rem;
+  display: flex;
+}
+
+.str-Next {
+  color: #4b4444b9;
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+.playground{
+  margin-top:30px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.progressTag {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 200px;
+  height: 20px;
+  border-radius: 7px;
+  color: #35495e;
+}
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 8px;
+}
+progress::-webkit-progress-value {
+  background-color: #c85448;
+  border-radius: 8px;
+}
+progress::-moz-progress-bar {
+  background-color: #eee;
+  border-radius: 8px;
+}
