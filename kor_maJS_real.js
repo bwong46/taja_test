@@ -104,10 +104,8 @@ function checkAccuracy() {
   acc = 0;
   len = strInput.value.length;
   if(!timer) {
-    if(window.event.isComposing) {
       setTimer = setInterval(Speed, 10);
       timer = 1;
-    }
   }
 
  if(len > 1 && count > 0) {
